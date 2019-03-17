@@ -1,0 +1,14 @@
+npm install mocha chai chai-http -D
+
+npm install eslint-plugin-chai-friendly -D
+
+npm install factory-girl faker -D
+
+npm install sinon -D
+
+npm install nyc -D
+
+NODE_ENV error
+npm install -g win-node-env
+
+npm test
