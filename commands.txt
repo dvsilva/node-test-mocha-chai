@@ -12,3 +12,23 @@ NODE_ENV error
 npm install -g win-node-env
 
 npm test
+
+# deploy
+curl -sL https://deb.nodesource.com/setup_11.x | sudo -E bash -
+sudo apt-get install -y nodejs
+
+sudo npm -i -g npm
+
+adduser deploy
+usermod -aG sudo deploy
+
+install mongodb via cmd and start
+
+instal PM2
+npm install -g pm2
+pm2 monit
+pm2 startup ubuntu
+
+apt install nginx
+
+CI - buddy (https://buddy.works/)
